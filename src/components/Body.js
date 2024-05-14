@@ -1,14 +1,21 @@
-import React from 'react'
-import Sidebar from './Sidebar'
-import { Outlet } from 'react-router-dom'
+import React from "react";
+import SideBar from "./SideBar";
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import { useSelector } from "react-redux";
 
 const Body = () => {
-  return (
-    <div className="grid grid-flow-col">
-        <Sidebar/>
-        <Outlet/>
-    </div>
-  )
-}
+  const isDarkMode = useSelector((store) => store.darkMode.isDarkMode);
 
-export default Body
+  return (
+    <div>
+      <Header />
+      <div className={"flex " + (isDarkMode && " bg-black text-white")}>
+        <SideBar />
+        <Outlet />
+      </div>
+    </div>
+  );
+};
+
+export default Body;
