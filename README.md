@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src=src/images/yt_logo_rgb_dark.png style="width:120px"></img>
+  <h1><b>🚀Youtube clone</b></h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> ## Introducing Youtube Clone, seamlessly integrated the YouTube API to offer you access to an extensive library of videos. It's like having YouTube at your fingertips!. With Redux handling state, React Router DOM ensuring easy navigation, and Tailwind CSS crafting a visually appealing interface, alongside Lazy Loading. Explore the features below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+<!-- Features -->
+<br></br>
+ ## 🎯 Key Features 
 
-### `npm run build`
+> ### 🌏 YouTube API Integration: We've seamlessly integrated the YouTube API to offer you access to an extensive library of videos.<br></br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> ### 🚀 Network Calls, Supercharged: Thanks to React Query, we've elevated performance by caching network calls. Say goodbye to sluggish loading times!<br></br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ### ⚡ Custom Hook: Utilizes custom hooks, enhancing code reusability and maintainability, allowing for a more efficient development process and a streamlined architecture.<br></br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> ### 🔐 State Management with Redux: Ensures a scalable and organized application state with Redux, streamlining data flow and providing a centralized management system for a seamless user experience.<br></br>
 
-### `npm run eject`
+> ### 🔍 Search Functionality:  Search feature is lightning-fast, thanks to debouncing and caching. Find your favourite videos in the blink of an eye.<br></br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ### 📌 Seamless Navigation: With React Router DOM, the app provides a smooth and intuitive navigation experience, enabling users to effortlessly explore different sections.<br></br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> ### ✨ Shimmer UI: Enhances user interface transitions with shimmer UI, providing a visually appealing loading effect during data retrieval, creating a polished and engaging experience for users while waiting for content to load.<br></br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> ### 🚧 Error 404 Page: In the event of a page not found or API failure, gracefully presents a user-friendly Error 404 page, ensuring a smooth and informative experience for users.<br></br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> ### 📱 Completely Responsive: Enjoy a seamless experience across various devices as the app ensures complete responsiveness, adapting to different screen sizes and resolutions.<br></br>
 
-## Learn More
+---
+<br></br>
+## 🚀 Live Demo 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Click Below
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ <a href="https://youtube-clone-one-taupe.vercel.app/" target="_blank">
+</a>
 
-### Code Splitting
+---
+<br></br>
+## 🎯 Future or Upcoming Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Login/Sign-in: 🔐 Working on enhancing security and user experience with a dedicated login/sign-in feature, allowing users to create accounts and access personalized services.
 
-### Analyzing the Bundle Size
+---
+<br></br>
+ ## 🔧 Tech Stack:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React: Powering the dynamic and interactive user interface.
 
-### Making a Progressive Web App
+- Redux Toolkit: Managing application state for a scalable and organized architecture.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Tailwind CSS: Crafting a visually appealing and responsive design.
 
-### Advanced Configuration
+- React Router: Enabling seamless navigation within the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+<br></br>
